@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', 'GraphController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
